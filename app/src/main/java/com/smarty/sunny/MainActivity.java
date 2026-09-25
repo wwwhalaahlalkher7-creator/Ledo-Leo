@@ -38,6 +38,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AnticipateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
@@ -501,6 +502,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .start();
+            }
 
             globalHandler.postDelayed(() -> {
                 if(n>1) {
@@ -908,14 +910,14 @@ public class MainActivity extends AppCompatActivity {
                 wlistcrown3.setVisibility(View.INVISIBLE);
                 wlistpiece2.setImageDrawable(getPieceDrawableByColor(color));
                 wlistname2.setText(name);
-                wlistwinorlose2.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.winner2,null));
+                wlistwinorlose2.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.winner1,null));
                 break;
             case 3:
                 wlistcrown3.setVisibility(View.VISIBLE);
                 wlistcrown4.setVisibility(View.INVISIBLE);
                 wlistpiece3.setImageDrawable(getPieceDrawableByColor(color));
                 wlistname3.setText(name);
-                wlistwinorlose3.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.winner3,null));
+                wlistwinorlose3.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.winner1,null));
                 break;
             case 4:
                 wlistcrown4.setVisibility(View.VISIBLE);
