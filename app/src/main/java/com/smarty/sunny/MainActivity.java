@@ -501,7 +501,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .start();
-            }
 
             globalHandler.postDelayed(() -> {
                 if(n>1) {
