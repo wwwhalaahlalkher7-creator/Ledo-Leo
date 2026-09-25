@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Faltu files — GitHub pe mat daalo
+*.zip
+ludo_clone_preview.gif
+ic_launcher-playstore.png
+AAPKE_LIYE_PADHEIN.txt

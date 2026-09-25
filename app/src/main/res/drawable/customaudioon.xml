@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Green circle background -->
+    <path
+        android:fillColor="#FF4CAF50"
+        android:pathData="M12,12m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"/>
+    <!-- Dark green circle border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF388E3C"
+        android:strokeWidth="0.8"
+        android:pathData="M12,12m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"/>
+    <!-- White music note icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,5v7.55c-0.45,-0.26 -0.96,-0.42 -1.5,-0.42C9.01,12.13 7.75,13.39 7.75,14.88s1.26,2.75 2.75,2.75s2.75,-1.26 2.75,-2.75V8.25h2.5V5H12z"/>
+    <!-- Small "C" letter for Custom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18.5,13.5c0,-1.38 -1.12,-2.5 -2.5,-2.5c-0.51,0 -0.98,0.15 -1.38,0.42l0.76,0.76c0.18,-0.11 0.39,-0.18 0.62,-0.18c0.69,0 1.25,0.56 1.25,1.25v0.5c0,0.69 -0.56,1.25 -1.25,1.25c-0.23,0 -0.44,-0.07 -0.62,-0.18l-0.76,0.76c0.4,0.27 0.87,0.42 1.38,0.42c1.38,0 2.5,-1.12 2.5,-2.5z"/>
+</vector>
