@@ -1,4 +1,4 @@
-﻿package com.smarty.sunny;
+package com.smarty.sunny;
 
 import static android.view.View.GONE;
 
@@ -501,7 +501,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .start();
-                    .start();
             }
 
             globalHandler.postDelayed(() -> {
